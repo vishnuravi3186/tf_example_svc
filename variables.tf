@@ -19,7 +19,7 @@ variable "aws_region" {
 variable "aws_s3_prefix" {
   type = "string"
   description = "AWS S3 bucket prefix"
-  default = "straycat-dhs-org"
+  default = "example-com"
 }
 
 variable "subnet_type" {
@@ -76,13 +76,13 @@ variable "instance_key_name" {
 variable "domain" {
   type = "string"
   description = "Environment's domain name"
-  default = "straycat.dhs.org"
+  default = "example.com"
 }
 
 variable "domain_net" {
   type = "string"
   description = "All hosts exists in a global DNS namespace."
-  default = "straycat-net.dhs.org"
+  default = "example-net.com"
 }
 
 # Easier to use this over calculating based on VPC range.

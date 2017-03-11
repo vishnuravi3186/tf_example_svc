@@ -1,5 +1,5 @@
-# tf_straycat_svc
-Deploy a service into the Straycat environment.
+# tf_example_svc
+Deploy a service into the Example environment.
 
 This module will create and manage the following:
 * autoscaling group
